@@ -8,6 +8,9 @@ In my biology lessons, I learned about the causes of cancer and I also learned t
 Detects breast cancer from x-ray images with instance segmantation.
 
 ## How we built it
+For my project i used vscode as editor and trained my YOLOv8 model with a x-ray images dataset, the [notebook](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-instance-segmentation-on-custom-dataset.ipynb#scrollTo=D2YkphuiaE7_) from Roboflow make it possible. The libraries i used and for what are:  
+Dash --> create web app
+
 
 ## Challenges I ran into
 Problem: Not enough computing power to train my YOLO model with my customer dataset  
