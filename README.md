@@ -10,7 +10,7 @@ Detects breast cancer from x-ray images with instance segmantation.
 ## How we built it
 
 ## Challenges I ran into
-Not enough computing power to train my YOLO model with my customer dataset  
+Problem: Not enough computing power to train my YOLO model with my customer dataset  
 Solution: reduces epochs  
 Consequence: reduces accuracy  
 
