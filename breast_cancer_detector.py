@@ -80,14 +80,14 @@ def show_images(content):
     frame = img.copy()
 
     # Load class names from file
-    with open("lists/kind_of_cancer_list.txt") as src:
+    with open("kind_of_cancer_list.txt") as src:
         classlist = src.read().split("\n")
 
     # Generate random colors for each class
     detection_color = [(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)) for _ in classlist]
     
     # Load YOLO model for breast cancer detection
-    model = YOLO("weights/breastcancer_seg_model.pt")
+    model = YOLO("breastcancer_seg_model.pt")
     
     # Function to overlay masks on detected areas
     def overlay(original, masks, color, alpha=0.45):
