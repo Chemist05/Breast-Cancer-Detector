@@ -23,5 +23,5 @@ I learned how instance segmentation works and the dangers of ignorance and late 
 ## What's next for Breast Cancer Detection
 Train my YOLO model more so it becomes better and train it with other cancer types datasets
 
-##How it works
+## How it works
 You just upload a x-ray image and in few seconds the program finds out whether it is breast cancer or not
