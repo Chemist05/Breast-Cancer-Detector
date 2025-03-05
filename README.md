@@ -12,12 +12,12 @@ For my project i used vscode as editor and trained my YOLOv8 model with a x-ray 
 
 dash --> web framework; create web app  
 plotly --> data visualisation library; create figures and show images  
-random --> library for generate random number; create random colors for each class  
+random --> library for generate random number; create random colors for each class 
+io --> module for dealing various types of input/output;  I/O operations on byte data    
+base64 --> module for encoding and decoding binary data; decode binary data
 opencv --> computer vision library for image processing; resize, convert color(BGR to RGB), draw boxes and filled polygons and overlay segmentation masks
 numpy --> numerical computing library; convert mask as array and reshape arrays  
 ultralytics --> deep learning object detection framework; load YOLOv8 model for instance segmentation
-
-
 
 ## Challenges I ran into
 Problem: Not enough computing power to train my YOLO model with my customer dataset  
