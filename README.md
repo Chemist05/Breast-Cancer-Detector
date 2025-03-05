@@ -2,16 +2,20 @@
 Hackathon project
 
 ## Inspiration
-In my biology lessons, I learned about the causes of cancer and I also learned that the highest cause of death in women is breast cancer. One of the reasons is late diagnosis and misdiagnosis. So I thought of creating a web app that detects breast cancer early with the help of computer vision.
+In my biology lessons, I learned about the causes of cancer and I also learned that the highest cause of death in women is breast cancer. One of the reasons is late diagnosis and misdiagnosis. So I thought of creating a web app that detects breast cancer early with the help of object detection.
 
 ## What it does
 Detects breast cancer from x-ray images with instance segmantation.
 
 ## How we built it
-For my project i used vscode as editor and trained my YOLOv8 model with a x-ray images dataset, the [notebook](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-instance-segmentation-on-custom-dataset.ipynb#scrollTo=D2YkphuiaE7_) from Roboflow make it possible. The libraries i used and for what are:  
+For my project i used vscode as editor and trained my YOLOv8 model with a x-ray images dataset, the [notebook](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-instance-segmentation-on-custom-dataset.ipynb#scrollTo=D2YkphuiaE7_) from Roboflow make it possible. The libraries I used and for what are:  
 
-Dash --> framework, create web app
-plotly --> data visualisation library, create figures and show images
+dash --> web framework; create web app  
+plotly --> data visualisation library; create figures and show images  
+random --> library for generate random number; create random colors for each class  
+opencv --> computer vision library for image processing; resize, convert color(BGR to RGB), draw boxes and filled polygons and overlay segmentation masks
+numpy --> numerical computing library; convert mask as array and reshape arrays  
+ultralytics --> deep learning object detection framework; load YOLOv8 model for instance segmentation
 
 
 
