@@ -2,7 +2,7 @@
 Hackathon project
 
 ## Inspiration
-In my biology lessons, I learned about the causes of cancer and I also learned that the highest cause of death in women is breast cancer. One of the reasons is late diagnosis and misdiagnosis. So I thought of creating a web app that detects breast cancer early with the help of object detection.
+In my biology lessons, I learned about the causes of cancer and I also learned that the highest cause of death in women is breast cancer. One of the reasons are late diagnosis and misdiagnosis. So I thought of creating a web app that detects breast cancer early with the help of object detection.
 
 ## What it does
 Detects breast cancer from x-ray images with instance segmantation.
