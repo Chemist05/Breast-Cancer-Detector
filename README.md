@@ -35,3 +35,6 @@ Train my YOLO model more so it becomes better and train it with other cancer typ
 
 ## How it works
 You just upload a x-ray image and in few seconds the program finds out whether it is breast cancer or not.
+
+## Video
+you can see the loom video [here](https://www.loom.com/share/f5338a3ee4a34e0084b9089c0a2ab723?sid=cb066360-7718-4667-af75-2c6da78560b6)
